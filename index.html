@@ -1,0 +1,89 @@
+<!DOCTYPE html><!--declaraçao pro navegador que é uma pagina html-->
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text.css" href="style.css">
+</head>
+<body>
+    <main>
+    <header>
+        <img src="xanin.jpg" alt="gatin" title="gatin">
+    </header>
+    <div >
+        <meta charset="UTF-8"><!--meta tag que libera que acentos e caracteres especiais aparecam-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hiring Coders - What I've learned</title>
+        
+        <p id="aulaDeTagsEestrutura">Método extra - HTML - Aula de tags e estrutura</p>
+        <p> A tag (P - < p >) é uma tag que retorna parágrafos, e possui a tag de abertura e fechamento.</p>
+        <p> A tag (Img - < img >) é uma tag que adiciona imagens na tela, e são tags "vazias pois nao tem "abre e fecha"</p>
+        <p>
+            Quando utilizamos uma tag, como por exemplo (< a >), dizemos que este é um elemento aninhado, pois tem um 
+            elemento dentro de outro
+        </p>
+        <p id="unico">ID é utilizado para identificar um elemento unico na página</p>
+        <p class="grupo">Class é utilizado para identificar um grupo de elementos</p>
+        <!--Comentários-->
+        <p> utilizamos < ! -- para comentar linhas de código no HTML</p>
+    </div>
+    <div id="aulaDeMetaTags">
+       <meta name="description" content="Texto descritivo da página"><!--meta tag que descreve o que tem na tela-->
+       <meta name="author" content="Joana dos Santos"><!--meta tag que especifica o autor-->
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!--meta tag que diz ao prog que será responsivo ao tamanho da tela-->
+    </div>
+    <div id="aulaIncluindoCSSeJS">
+        <!--utiliza-se o style, pra inserir CSS, mas vale mais a pena separar os docs-->
+        <!--<link rel="stylesheet" type="text/css" href="style.css">
+        o css pode estar em um servidor e na pasta aonde está esse html-->
+       
+        <!--<<script type="text/javascript">
+            alert("Oi mundo!");
+        </script>comando acima abre um text box no navegador com o a mensagem-->
+    
+        <script type="text/javascript" src="codigo.js"></script>
+    </div>
+    <div id="aulaSemantica">
+        <p>Semântica é o estudo do significado e interpretação das palavras. Serve para deixar explicito 
+            para a máquina qual o conteudo que sera acessado.
+        </p>
+    </div>
+    <div id="aulaTextos">
+        <h1>Planeta Terra</h1><!--Titulo + importante-->
+        <p>Joana <strong>Santos</strong></p>
+        <h2>América do Sul</h2><!--Subtitulo do h1-->
+        <p>Joana <span>Santos</span></p>
+        <h3>Brasil</h3><!--Subtitulo do h2-->
+        <p>Joana Santos</p>
+        <h4>Rio de Janeiro</h4><!--Capítulo do h3-->
+        <p>Joana Santos</p>
+        <h5>Rio de Janeiro</h5><!--Subcapítulo do h4-->
+        <p>Joana Santos</p>
+        <h6>Méier</h6><!--Subcapítulo do h5-->
+        <p>Joana Santos</p>
+    </div>
+
+        <a href="https://www.linkedin.com/in/joana-dos-santos-296309195/" title="Linkedin Joana" target="_blank">
+        Teste de link
+        </a>
+        <br><br>
+        <a href="https://www.linkedin.com/in/joana-dos-santos-296309195/" title="Linkedin Joana" target="_blank">
+            <img id="gatin" src="linkedinPo.jpg"/>
+        </a>
+        
+        <p>Estou treinando o HTML e se voce quer acompanhar meus conhecimentos, segue meu 
+            <a href="https://www.linkedin.com/in/joana-dos-santos-296309195/" title="Linkedin Joana">LinkedIn!
+        </p>
+<br><br><br>
+
+        <!--<video width="550" height="560" controls>
+            <source src="">
+        </video>-->
+
+        <!--listas-->
+         <ul><!--listas desordenadas-->
+            <li>Item </li>
+         </ul>
+</main>
+</body>
+</html>
