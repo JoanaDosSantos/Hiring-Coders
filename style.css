@@ -1,3 +1,9 @@
 #gatin{
     size: 15rem;
 }
+.section:gatinhos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: crimson;
+}
